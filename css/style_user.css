@@ -1,0 +1,282 @@
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Search bar styling */
+input[type="text"], input[type="date"],input[type="password"],input[type="email"], button[type="submit"] {
+    border: 1px solid #333; /* Dark color border */
+    padding: 5px; /* Adjust padding as needed */
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff; /* Navbar styles */
+    .container {
+       width: 80%;
+       margin: 0 auto;
+       padding: 20px;
+   }
+           .navbar {
+               overflow: hidden;
+               background-color: #333;
+               position: fixed;
+               top: 0;
+               width: 100%;
+               z-index: 1000; /* Ensure the navbar is on top of other content */
+           }
+           .navbar a {
+               float: left;
+               display: block;
+               color: #f2f2f2;
+               text-align: center;
+               padding: 14px 20px;
+               text-decoration: none;
+           }
+           .navbar a:hover {
+               background-color: #ddd;
+               color: black;
+           }
+           .navbar a i {
+               margin-right: 5px; /* Add some space between icon and text */
+           }
+           /* Parallax effect styles */
+           .parallax-section {
+               height: 100vh;
+               background-size: cover;
+               background-position: center;
+               position: relative;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               color: white;
+               text-align: center;
+           }
+           .parallax-content {
+               z-index: 1;
+               position: relative;
+           }
+           /* Footer styles */
+           footer {
+               display: flex;
+               justify-content: center; /* Aligning content horizontally at the center */
+               align-items: center; /* Aligning content vertically at the center */
+               padding: 20px 0; /* Adjust padding as needed */
+               background-color: #333;
+               color: #f2f2f2;
+               text-align: center;
+               padding: 20px 0;
+               width: 100%;
+           }
+           /* Set background images for each section */
+           .parallax-section {
+               background-size: cover;
+               background-repeat: no-repeat;
+               background-position: center;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               color: white;
+               text-align: center;
+           }
+           /* Back to top button */
+           .back-to-top {
+               position: fixed;
+               bottom: 20px;
+               right: 20px;
+               background-color: #333;
+               color: white;
+               border: none;
+               border-radius: 50%;
+               width: 50px;
+               height: 50px;
+               cursor: pointer;
+               transition: background-color 0.3s;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+           }
+           .back-to-top:hover {
+               background-color: #555;
+           }
+           .back-to-top i {
+               font-size: 20px;
+           }
+           
+           .about-content {
+       background-color: rgba(200, 200, 200, 0.8); /* Light gray with transparency */
+       padding: 20px;
+       border-radius: 10px;
+       width: 80%; /* Increase max-width for bigger content */
+       margin: 0 auto; /* Center the content */
+       margin-bottom: 40px; /* Add some space at the bottom */
+       font-size: 18px; /* Increase font size for better readability */
+   }
+   
+   
+   
+   .about-content h2 {
+       color: #333; /* Darken the text color for better contrast */
+   }
+   .social-icons {
+               list-style-type: none;
+               padding: 0;
+               margin: 0;
+               display: flex;
+           }
+   
+           .social-icons li {
+               margin-right: 10px;
+           }
+   
+           .social-icons li a {
+               text-decoration: none;
+               display: flex;
+               align-items: center;
+               color: #ffffff;
+               transition: color 0.3s ease;
+           }
+   
+           .social-icons li a:hover {
+               color: #000000;
+           }
+   
+           .social-icons li a i {
+               font-size: 24px;
+               margin-right: 5px;
+           }
+   
+           .social-icons li span {
+               font-size: 16px;
+           }
+   
+           fieldset {
+               border: 2px solid grey; /* Border color */
+               border-radius: 10px;
+               padding: 20px;
+               margin: 10px;
+               width: 300px; /* Adjust width as needed */
+               text-align: left;
+               background-color: rgba(125, 125, 125, 0.8);
+               
+           }
+   
+   
+           label {
+               color: white;
+               display: block;
+               margin-bottom: 10px;
+           }
+   
+           input[type="text"],
+           input[type="email"],
+           textarea {
+               width: 90%;
+               padding: 8px;
+               margin-bottom: 10px;
+               border: 1px solid grey; /* Input border color */
+           }
+   
+           button[type="submit"] {
+               background-color: grey; /* Button background color */
+               color: white; /* Button text color */
+               padding: 10px 20px;
+               border: none;
+               cursor: pointer;
+           }
+   
+           button[type="submit"]:hover {
+               background-color: darkgrey; /* Button background color on hover */
+           }
+           .subx{
+            position: relative;
+            left: 70%;
+           }
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/*reservation css*/
+
+    /* Styling for h2 */
+    h2 {
+        color: #333; /* Dark color */
+    }
+
+    /* Styling for message divs */
+    div {
+        color: #333; /* Dark color */
+    }
+
+    /* Styling for labels */
+    label {
+        color: #333; /* Dark color */
+    }
+
+    /* Styling for input fields */
+
+    input[type="date"],
+    select {
+        color: #333; /* Dark color */
+        border: 1px solid #333; /* Dark color border */
+        padding: 5px; /* Adjust padding as needed */
+    }
+
+    /* Styling for submit button */
+    input[type="submit"] {
+        background-color: #333; /* Dark color */
+        color: #fff; /* White text */
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    /* Styling for horizontal line */
+    hr {
+        border: 1px solid #333; /* Dark color */
+    }

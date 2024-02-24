@@ -1,0 +1,156 @@
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer styling */
+footer {
+    display: flex;
+    justify-content: center; /* Aligning content horizontally at the center */
+    align-items: center; /* Aligning content vertically at the center */
+    padding: 20px 0; /* Adjust padding as needed */
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+/* Search bar styling */
+input[type="text"], input[type="date"],input[type="password"],input[type="email"], button[type="submit"] {
+    border: 1px solid #333; /* Dark color border */
+    padding: 5px; /* Adjust padding as needed */
+    margin: 5px;
+    border-radius: 5px;
+}
+.textarea-container {
+    position: relative;
+    width: 100%;
+}
+
+#Description {
+    border: 1px solid #ccc; /* Grey color border */
+    padding: 5px; /* Adjust padding as needed */
+    margin: 5px;
+    border-radius: 5px;
+    width: calc(100% - 12px); /* Subtract padding and border from width */
+    box-sizing: border-box; /* Include padding and border in the width */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+#charCount {
+    font-size: 12px;
+    color: #666;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    padding: 10px;
+}
+
+
+#charCount {
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+}
+
+
+button[type="submit"] {
+    background-color: #333; /* Dark color */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/*reservation css*/
+
+    /* Styling for h2 */
+    h2 {
+        color: #333; /* Dark color */
+    }
+
+    /* Styling for message divs */
+    div {
+        color: #333; /* Dark color */
+    }
+
+    /* Styling for labels */
+    label {
+        color: #333; /* Dark color */
+    }
+
+    /* Styling for input fields */
+
+    input[type="date"],
+    select {
+        color: #333; /* Dark color */
+        border: 1px solid #333; /* Dark color border */
+        padding: 5px; /* Adjust padding as needed */
+    }
+
+    /* Styling for submit button */
+    input[type="submit"] {
+        background-color: #333; /* Dark color */
+        color: #fff; /* White text */
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    /* Styling for horizontal line */
+    hr {
+        border: 1px solid #333; /* Dark color */
+    }
+
+    /* Custom style for file input */
+    .custom-file-input {
+        visibility: hidden;
+        position: absolute;
+    }
+    .custom-file-label {
+        background-color: #333; /* Dark color */
+        color: #fff; /* White text */
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: small;
+    }
